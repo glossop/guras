@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="domain" table="x_mema_morning_che_server_register" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>avs.local</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 03:49:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>341a6899db30670011e4e434059619b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 03:49:40</sys_updated_on>
+            <value>avs.local</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>cetnajpl.local</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:39:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ff96099db30670011e4e4340596196b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:39:17</sys_updated_on>
+            <value>cetnajpl.local</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>gamart.local</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:39:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9f9601ddb30670011e4e4340596192c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:39:09</sys_updated_on>
+            <value>gamart.local</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>domain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>mml.internal</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:38:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61e9acd9db30670011e4e434059619e5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:39:01</sys_updated_on>
+            <value>mml.internal</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>domain</element>
+            <name>x_mema_morning_che_server_register</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-26 01:38:58</sys_created_on>
+            <sys_id>c8b13b5bdb1210100ec5273748961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>domain</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_choice_x_mema_morning_che_server_register_domain</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-26 01:38:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

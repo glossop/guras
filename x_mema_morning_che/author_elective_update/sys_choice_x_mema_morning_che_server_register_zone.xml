@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="zone" table="x_mema_morning_che_server_register" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCA</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:05:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be2b71c8db6c6f00473de7148a96196b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 23:36:15</sys_updated_on>
+            <value>DCA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCB</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>1</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-21 02:28:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8808fbcdb73a30011e4e434059619e6</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-21 03:10:28</sys_updated_on>
+            <value>DCB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCC</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>2</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 23:35:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a322d6b4db33a30011e4e434059619c0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 23:36:22</sys_updated_on>
+            <value>DCC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCD</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>3</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 23:35:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46e85a7cdb33a30011e4e4340596192f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-21 04:16:28</sys_updated_on>
+            <value>DCD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DMZ</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>4</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c73bb9c8db6c6f00473de7148a96195a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 23:36:32</sys_updated_on>
+            <value>DMZ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SERVERS</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>5</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:06:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>196b79c8db6c6f00473de7148a9619ae</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-17 23:24:04</sys_updated_on>
+            <value>PROD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DEV</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>6</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>563b3dc8db6c6f00473de7148a961944</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 23:36:38</sys_updated_on>
+            <value>DEV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GAMART</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>8</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19b706b4db33a30011e4e434059619b1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 23:36:42</sys_updated_on>
+            <value>GAMART</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INFRA</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>9</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9b706b4db33a30011e4e43405961951</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 23:36:45</sys_updated_on>
+            <value>INFRA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NR - DMZ</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>10</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49b706b4db33a30011e4e4340596195f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 23:36:47</sys_updated_on>
+            <value>NR - DMZ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PHONE</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>11</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9b706b4db33a30011e4e43405961967</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 23:36:49</sys_updated_on>
+            <value>PHONE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WORKSTATIONS</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>12</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-17 23:22:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b41a22c4db0cc81011e4e43405961965</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-17 23:26:42</sys_updated_on>
+            <value>WORKSTATIONS</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>zone</element>
+            <name>x_mema_morning_che_server_register</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:05:51</sys_created_on>
+            <sys_id>4cb13b5bdb1210100ec5273748961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>zone</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_choice_x_mema_morning_che_server_register_zone</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 00:05:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

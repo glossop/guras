@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="cetnaj_backups" table="x_mema_morning_che_morning_checklist_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cetnaj_backups</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OK</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-11 03:31:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1753d2c2db4d6780473de7148a9619dc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-11 03:39:30</sys_updated_on>
+            <value>OK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cetnaj_backups</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-11 03:31:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da73de8adb0d6780473de7148a9619a2</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-11 03:39:26</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cetnaj_backups</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Repeat Error</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-11 03:31:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37735606db4d6780473de7148a961944</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-11 03:39:27</sys_updated_on>
+            <value>Repeat Error</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>cetnaj_backups</element>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-11 03:31:06</sys_created_on>
+            <sys_id>bba1f75bdb1210100ec5273748961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cetnaj_backups</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_choice_x_mema_morning_che_morning_checklist_table_cetnaj_backups</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-11 03:31:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

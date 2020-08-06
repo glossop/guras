@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="power_state" table="x_mema_morning_che_server_register" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>power_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Off</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:12:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1acf90cdb6c6f00473de7148a96192c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 00:12:17</sys_updated_on>
+            <value>OFF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>power_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>199c3d0cdb6c6f00473de7148a9619f2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 00:12:08</sys_updated_on>
+            <value>ON</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>power_state</element>
+            <name>x_mema_morning_che_server_register</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:12:06</sys_created_on>
+            <sys_id>c8b13b5bdb1210100ec527374896197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>power_state</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_choice_x_mema_morning_che_server_register_power_state</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 00:12:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

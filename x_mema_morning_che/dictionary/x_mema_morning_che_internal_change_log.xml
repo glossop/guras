@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Internal Change Log" max_length="40" name="x_mema_morning_che_internal_change_log" sizeclass="6" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Effected Group" max_length="32" name="u_effected" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Proposed Date/Time" mandatory="true" max_length="40" name="u_glide_date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" mandatory="true" max_length="4000" name="u_journal" type="journal"/>
+        <element attributes="encode_utf8=false" label="Server" mandatory="true" max_length="32" name="u_server" reference="x_mema_morning_che_server_register" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="u_short_des" type="string"/>
+        <index name="index">
+            <element name="u_server"/>
+        </index>
+        <index name="index2">
+            <element name="u_effected"/>
+        </index>
+    </element>
+</database>

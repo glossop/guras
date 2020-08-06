@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="mopro" table="x_mema_morning_che_morning_checklist_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mopro</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OK</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-03-17 22:34:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7acaf6b8db1c3f4011e4e43405961968</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-17 22:35:15</sys_updated_on>
+            <value>OK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mopro</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-03-17 22:35:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4eaf6b8db1c3f4011e4e43405961969</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-17 22:35:17</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mopro</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Repeat Error</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-03-17 22:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86eab6b8db1c3f4011e4e4340596199d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-17 22:35:35</sys_updated_on>
+            <value>Repeat Error</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mopro</element>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-03-17 22:34:57</sys_created_on>
+            <sys_id>b7a1f75bdb1210100ec52737489619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mopro</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_choice_x_mema_morning_che_morning_checklist_table_mopro</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-17 22:34:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

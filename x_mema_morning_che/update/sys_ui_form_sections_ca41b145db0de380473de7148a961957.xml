@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ca41b145db0de380473de7148a961957" sys_domain="global" table="x_mema_morning_che_jumpbox" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce41b145db0de380473de7148a961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_mema_morning_che_jumpbox" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca41b145db0de380473de7148a961957</sys_ui_form>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca41b145db0de380473de7148a96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_mema_morning_che_jumpbox" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca41b145db0de380473de7148a961957</sys_ui_form>
+            <sys_ui_section caption="More Info" display_value="More Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ce41b145db0de380473de7148a961955</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c241b145db0de380473de7148a96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_mema_morning_che_jumpbox" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca41b145db0de380473de7148a961957</sys_ui_form>
+            <sys_ui_section caption="Sysadmin Panel" display_value="Sysadmin Panel" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">8641b145db0de380473de7148a961956</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_mema_morning_che_jumpbox</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca41b145db0de380473de7148a961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_mema_morning_che_jumpbox</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ca41b145db0de380473de7148a961957</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Sysadmin" name="Sysadmin">ca413145db0de380473de7148a96199d</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

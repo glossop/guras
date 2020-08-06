@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_mema_morning_che.Jumpbox</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>Jumpbox</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-05-17 04:29:10</sys_created_on>
+        <sys_id>63a271d14f3e76007b679a701310c744</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_mema_morning_che.Jumpbox</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sysevent_register_63a271d14f3e76007b679a701310c744</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2017-05-17 04:29:10</sys_updated_on>
+        <table>x_mema_morning_che_jumpbox</table>
+    </sysevent_register>
+</record_update>

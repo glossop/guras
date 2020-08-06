@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_mema_morning_che_internal_change_log">x_mema_morning_che_internal_change_log</category>
+        <maximum_digits>6</maximum_digits>
+        <number>1000</number>
+        <prefix>ICL</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-04 01:13:59</sys_created_on>
+        <sys_id>392a446bdb5210100ec5273748961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ICL</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_number_392a446bdb5210100ec5273748961908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-04 01:13:59</sys_updated_on>
+    </sys_number>
+</record_update>

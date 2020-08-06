@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Jumpbox</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[if(email.body.comments != undefined){
+   current.rejectresponse = email.body.comments;
+}
+if(email.body.approved != undefined){
+   var var01 = email.body.approved;
+   if(var01.toLowerCase() == "yes"){
+	   current.approved = 'Yes';
+   }
+   if(var01.toLowerCase() == 'no'){
+	   current.approved = 'No';
+   }
+}]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2018-10-05 04:13:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd73238cdb0d6380473de7148a961951</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>if(email.body.comments != undefined){&#13;
+   current.rejectresponse = email.body.comments;&#13;
+}&#13;
+if(email.body.approved != undefined){&#13;
+   var var01 = email.body.approved;&#13;
+   if(var01.toLowerCase() == "yes"){&#13;
+	   current.approved = 'Yes';&#13;
+   }&#13;
+   if(var01.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sysevent_in_email_action_bd73238cdb0d6380473de7148a961951</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-03-20 22:28:27</sys_updated_on>
+        <table>x_mema_morning_che_jumpbox</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

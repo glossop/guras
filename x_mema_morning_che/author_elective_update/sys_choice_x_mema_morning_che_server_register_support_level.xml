@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="support_level" table="x_mema_morning_che_server_register" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bronze</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-16 04:38:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c55f11ebdb3f7b0011e4e43405961902</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-16 04:41:26</sys_updated_on>
+            <value>bron</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Silver</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>1</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-16 04:37:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b91f11abdb3f7b0011e4e4340596197d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-16 04:41:09</sys_updated_on>
+            <value>silv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gold</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>2</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-16 04:36:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7eedd6bdb3f7b0011e4e4340596191a</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-16 04:41:04</sys_updated_on>
+            <value>gold</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Platinum</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>3</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-16 04:36:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f99ed56bdb3f7b0011e4e4340596195e</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-16 04:41:01</sys_updated_on>
+            <value>plat</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>support_level</element>
+            <name>x_mema_morning_che_server_register</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-16 04:36:15</sys_created_on>
+            <sys_id>04b13b5bdb1210100ec527374896198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>support_level</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_choice_x_mema_morning_che_server_register_support_level</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-16 04:36:15</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

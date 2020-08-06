@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="calendar_elements=calendar_elements=start_date;short_desc" label="Morning Che Ops Calendar" max_length="40" name="x_mema_morning_che_ops_calendar" sizeclass="0" type="collection">
+        <element default="OpsCal" label="Calendar" max_length="10" name="calendar" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Notify Who" max_length="32" name="notify_who" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="notification" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="notify_who"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_mema_morning_che_server_register" label="New Server" max_length="40" name="x_mema_morning_che_new_server" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Backup Required" mandatory="true" max_length="40" name="backup_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Backup Type" max_length="40" name="backup_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Application Server" value="app"/>
+                <element inactive_on_update="false" label="Infrastructure Server" value="infra"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other Drives" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="true" label="C Drive" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Services" max_length="40" name="u_boolean_3" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="true" label="Ping" max_length="40" name="u_boolean_4" type="boolean"/>
+        <element label="List Required Services" max_length="200" name="u_string_5" type="string"/>
+        <element label="List Required Drives" max_length="40" name="u_string_6" type="string"/>
+    </element>
+</database>

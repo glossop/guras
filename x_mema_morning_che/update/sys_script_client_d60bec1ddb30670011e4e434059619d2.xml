@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Updates domain to the most likely domain based on company</description>
+        <field>company</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>SR-Update Domain</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	// Checking the data in the company field and updating the domain field to the most appropriate data
+	var data = g_form.getValue('company');
+	if(data == "mmem"){
+		   g_form.setValue('domain','mml.internal');
+	   }
+	else if(data == "rushmore"){
+		   g_form.setValue('domain','mml.internal');
+	   }
+	else if(data == "dotmar"){
+		   g_form.setValue('domain','mml.internal');
+	   }
+	else if(data == "gamart"){
+		   g_form.setValue('domain','gamart.local');
+	   }
+	else if(data == "cetnaj"){
+		g_form.setValue('domain','cetnajpl.local');
+	   }
+	else if (data == "avs"){
+		g_form.setValue('domain','avs.local');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2018-09-26 03:49:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d60bec1ddb30670011e4e434059619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SR-Update Domain</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_script_client_d60bec1ddb30670011e4e434059619d2</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2018-09-26 03:49:24</sys_updated_on>
+        <table>x_mema_morning_che_server_register</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

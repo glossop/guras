@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_mema_morning_che_jumpbox_script_1</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[var app = new GlideRecord('sysapproval_approver');    
+app.addQuery('sysapproval', current.sys_id);    
+app.addQuery('state', 'rejected');    
+app.query();   
+while (app.next()) {      
+	template.print("Approver: " + app.approver.getDisplayValue() + ":\n");    
+	template.print("Comments: " + app.comments.getJournalEntry(-1) + "\n\n");    
+}]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-08-16 06:02:43</sys_created_on>
+        <sys_id>92d03e6e4fe8cb007b679a701310c79c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_mema_morning_che_jumpbox_script_1</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_script_email_92d03e6e4fe8cb007b679a701310c79c</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2017-08-16 06:07:10</sys_updated_on>
+    </sys_script_email>
+</record_update>

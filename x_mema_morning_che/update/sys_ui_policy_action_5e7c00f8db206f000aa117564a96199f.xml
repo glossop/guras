@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>backup_specifics</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2018-09-11 23:57:36</sys_created_on>
+        <sys_id>5e7c00f8db206f000aa117564a96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>backup_specifics</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5e7c00f8db206f000aa117564a96199f</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2018-09-11 23:57:36</sys_updated_on>
+        <table>x_mema_morning_che_new_server</table>
+        <ui_policy display_value="NS-Backup2">486cccb8db206f000aa117564a961917</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

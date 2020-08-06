@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vmname" label="VM Name" language="en" table="x_mema_morning_che_server_register">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vmname</element>
+            <help/>
+            <hint/>
+            <label>VM Name</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <plural>VM Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-09-29 23:28:45</sys_created_on>
+            <sys_id>bbced008db98c45011e4e434059619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>VM Name</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_documentation_x_mema_morning_che_server_register_vmname_en</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-09-29 23:28:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

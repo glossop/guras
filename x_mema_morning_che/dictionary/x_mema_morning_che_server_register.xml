@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Server Register" max_length="40" name="x_mema_morning_che_server_register" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,ref_auto_completer=AJAXTableCompleter" choice="2" label="Backup and Replication Group" max_length="200" name="backup_and_replication_group" reference="x_mema_morning_che_backup_listing" reference_qual="javascript:&quot;location=&quot;+current.location" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
+        <element label="Backup Specifics" max_length="200" name="backup_specifics" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="mmem" label="Company" max_length="50" name="company" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SHARED" value="shared"/>
+                <element inactive_on_update="false" label="Backup" sequence="0" value="Backup"/>
+                <element inactive_on_update="false" label="MMEM" sequence="1" value="mmem"/>
+                <element inactive_on_update="false" label="RUSHMORE" sequence="2" value="rushmore"/>
+                <element inactive_on_update="false" label="DOTMAR" sequence="3" value="dotmar"/>
+                <element inactive_on_update="false" label="GAMART" sequence="4" value="gamart"/>
+                <element inactive_on_update="false" label="CETNAJ" sequence="5" value="cetnaj"/>
+                <element inactive_on_update="false" label="AVS" sequence="6" value="avs"/>
+            </choice>
+        </element>
+        <element active="false" attributes="edge_encryption_enabled=true" label="Critical System" max_length="40" name="critical_system" type="boolean"/>
+        <element label="Description" max_length="2000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="mml.internal" label="Domain" max_length="50" name="domain" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="avs.local" value="avs.local"/>
+                <element inactive_on_update="false" label="cetnajpl.local" value="cetnajpl.local"/>
+                <element inactive_on_update="false" label="gamart.local" value="gamart.local"/>
+                <element inactive_on_update="false" label="mml.internal" value="mml.internal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="IP Address" max_length="16" name="ip_address" type="ip_addr" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="TDC" label="Location" max_length="200" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Telstra DC" sequence="0" value="TDC"/>
+                <element inactive_on_update="false" label="OFFSITE - See Notes" sequence="1" value="OFF"/>
+                <element inactive_on_update="false" label="Mactel DC" sequence="2" value="MTDC"/>
+                <element inactive_on_update="false" label="NRocks DC" sequence="3" value="NR"/>
+            </choice>
+        </element>
+        <element label="Monitoring" max_length="2000" name="monitoring" type="string"/>
+        <element display="true" label="Name" max_length="200" name="name" type="string"/>
+        <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="2012r2" label="Operating System" max_length="200" name="operating_system" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CentOS" value="centos"/>
+                <element inactive_on_update="false" label="Linux SCO" value="sco"/>
+                <element inactive_on_update="false" label="Red Hat Enterprise Linux" value="rhel"/>
+                <element inactive_on_update="false" label="Ubuntu" value="ubuntu"/>
+                <element inactive_on_update="false" label="Windows 10 (32-bit)" value="win10-32"/>
+                <element inactive_on_update="false" label="Windows 10 (64-bit)" value="win10-64"/>
+                <element inactive_on_update="false" label="Windows 7 (32-bit)" value="win7-32"/>
+                <element inactive_on_update="false" label="Windows 7 (64-bit)" value="win7-64"/>
+                <element inactive_on_update="false" label="Windows Server 2000 (32-bit)" value="2000-32"/>
+                <element inactive_on_update="false" label="Windows Server 2003 (32-bit)" value="2003-32"/>
+                <element inactive_on_update="false" label="Windows Server 2003 (64-bit)" value="2003-64"/>
+                <element inactive_on_update="false" label="Windows Server 2003 R2 (32-bit)" value="2003r2-32"/>
+                <element inactive_on_update="false" label="Windows Server 2003 R2 (64-bit)" value="2003r2-64"/>
+                <element inactive_on_update="false" label="Windows Server 2008 (32-bit)" value="2008-32"/>
+                <element inactive_on_update="false" label="Windows Server 2008 (64--bit)" value="2008-64"/>
+                <element inactive_on_update="false" label="Windows Server 2008 R2" value="2008r2"/>
+                <element inactive_on_update="false" label="Windows Server 2012" value="2012"/>
+                <element inactive_on_update="false" label="Windows Server 2012 R2" value="2012r2"/>
+                <element inactive_on_update="false" label="Windows Server 2016" value="2016"/>
+                <element inactive_on_update="false" label="CentOS 4/5/6/7 (64-bit)" sequence="0" value="CentOS 4/5/6/7 (64-bit)"/>
+                <element inactive_on_update="false" label="Linux" sequence="0" value="Linux"/>
+                <element inactive_on_update="false" label="Linux CentOS/RHEL" sequence="0" value="Linux CentOS/RHEL"/>
+                <element inactive_on_update="false" label="Microsoft Windows 10 (64-bit)" sequence="0" value="Microsoft Windows 10 (64-bit)"/>
+                <element inactive_on_update="false" label="Microsoft Windows 7 (64-bit)" sequence="0" value="Microsoft Windows 7 (64-bit)"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2000 (32-bit)" sequence="0" value="Microsoft Windows Server 2000 (32-bit)"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2003 Standard (32-bit)" sequence="0" value="Microsoft Windows Server 2003 Standard (32-bit)"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2008 R2" sequence="0" value="Microsoft Windows Server 2008 R2"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2012" sequence="0" value="Microsoft Windows Server 2012"/>
+                <element inactive_on_update="false" label="Microsoft Windows Server 2016 (64-bit)" sequence="0" value="Microsoft Windows Server 2016 (64-bit)"/>
+                <element inactive_on_update="false" label="Microsort Windows Server 2012 (64-bit)" sequence="0" value="Microsort Windows Server 2012 (64-bit)"/>
+                <element inactive_on_update="false" label="Oracle Solaris 10 (64-bit)" sequence="0" value="Oracle Solaris 10 (64-bit)"/>
+                <element inactive_on_update="false" label="Red Hat Enterprise Linux 6 (64-bit)" sequence="0" value="Red Hat Enterprise Linux 6 (64-bit)"/>
+                <element inactive_on_update="false" label="Red Hat Enterprise Linux 7 (64-bit)" sequence="0" value="Red Hat Enterprise Linux 7 (64-bit)"/>
+                <element inactive_on_update="false" label="Ubuntu Linux (64-bit)" sequence="0" value="Ubuntu Linux (64-bit)"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="ON" label="Power State" max_length="200" name="power_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Off" value="OFF"/>
+                <element inactive_on_update="false" label="On" value="ON"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Sort" max_length="256" name="sort" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="VIRTUAL" label="State" max_length="200" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Physical" value="PHYSICAL"/>
+                <element inactive_on_update="false" label="Virtual" value="VIRTUAL"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="bron" label="Support level" max_length="200" name="support_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bronze" sequence="0" value="bron"/>
+                <element inactive_on_update="false" label="Silver" sequence="1" value="silv"/>
+                <element inactive_on_update="false" label="Gold" sequence="2" value="gold"/>
+                <element inactive_on_update="false" label="Platinum" sequence="3" value="plat"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="VM Name" max_length="200" name="vmname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Zone" max_length="200" name="zone" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="DCA" sequence="0" value="DCA"/>
+                <element inactive_on_update="false" label="DCB" sequence="1" value="DCB"/>
+                <element inactive_on_update="false" label="DCC" sequence="2" value="DCC"/>
+                <element inactive_on_update="false" label="DCD" sequence="3" value="DCD"/>
+                <element inactive_on_update="false" label="DMZ" sequence="4" value="DMZ"/>
+                <element inactive_on_update="false" label="SERVERS" sequence="5" value="PROD"/>
+                <element inactive_on_update="false" label="DEV" sequence="6" value="DEV"/>
+                <element inactive_on_update="false" label="GAMART" sequence="8" value="GAMART"/>
+                <element inactive_on_update="false" label="INFRA" sequence="9" value="INFRA"/>
+                <element inactive_on_update="false" label="NR - DMZ" sequence="10" value="NR - DMZ"/>
+                <element inactive_on_update="false" label="PHONE" sequence="11" value="PHONE"/>
+                <element inactive_on_update="false" label="WORKSTATIONS" sequence="12" value="WORKSTATIONS"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="backup_and_replication_group"/>
+        </index>
+        <index name="index2">
+            <element name="ip_address"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

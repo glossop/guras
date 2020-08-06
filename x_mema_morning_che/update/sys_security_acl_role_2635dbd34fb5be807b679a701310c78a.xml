@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-04-03 23:44:43</sys_created_on>
+        <sys_id>2635dbd34fb5be807b679a701310c78a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_mema_morning_che.user</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_security_acl display_value="incident_task">c235dbd34fb5be807b679a701310c788</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2635dbd34fb5be807b679a701310c78a</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2017-04-03 23:44:43</sys_updated_on>
+        <sys_user_role display_value="x_mema_sysadmin.user" name="x_mema_sysadmin.user">673c91f54fb13e807b679a701310c77c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

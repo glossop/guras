@@ -1,0 +1,2794 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["961aa02adba4d010f92e96888a961933"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description>Creates the incident for the Jumpbox Access request</description>
+        <expected_sequences>d21aa02adba4d010f92e96888a96192f,9a1aa02adba4d010f92e96888a961927,1e1aa02adba4d010f92e96888a961937,d61a602adba4d010f92e96888a9619c0,d61aa02adba4d010f92e96888a96192d,561aa02adba4d010f92e96888a961930,1a1aa02adba4d010f92e96888a961929,d61aa02adba4d010f92e96888a961925,561a602adba4d010f92e96888a9619be,961aa02adba4d010f92e96888a961933</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>d21aa02adba4d010f92e96888a96192f,9a1aa02adba4d010f92e96888a961927,1e1aa02adba4d010f92e96888a961937,d61a602adba4d010f92e96888a9619c0,d61aa02adba4d010f92e96888a96192d,561aa02adba4d010f92e96888a961930,5a1aa02adba4d010f92e96888a961939,1a1aa02adba4d010f92e96888a961929,161aa02adba4d010f92e96888a961934,d61aa02adba4d010f92e96888a961925,5a1aa02adba4d010f92e96888a961931,561a602adba4d010f92e96888a9619be,961aa02adba4d010f92e96888a961933</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>JumpboxAccess</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">d21aa02adba4d010f92e96888a96192f</start>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>0e1a602adba4d010f92e96888a9619bb</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-07-29 23:54:16</sys_updated_on>
+        <table>x_mema_morning_che_jumpbox</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="JumpboxAccess">a229c5514ffa76007b679a701310c753</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Creates the incident for the Jumpbox Access request</description>
+        <name>JumpboxAccess</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-05-17 01:27:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a229c5514ffa76007b679a701310c753</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>JumpboxAccess</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>wf_workflow_a229c5514ffa76007b679a701310c753</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2017-05-17 01:27:25</sys_updated_on>
+        <table>x_mema_morning_che_jumpbox</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d21aa02adba4d010f92e96888a96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>172</x>
+        <y>357</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d21aa02adba4d010f92e96888a96192f"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">d21aa02adba4d010f92e96888a96192f</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check if Approval is approved or rejceted</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>501</x>
+        <y>571</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d61aa02adba4d010f92e96888a96192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a96192d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a96192d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>approved=Yes^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a96192d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d21aa02adba4d010f92e96888a96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a96192d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>approved=Yes^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a96192d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a96192d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d21aa02adba4d010f92e96888a96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check if Approval is approved or rejceted">d61aa02adba4d010f92e96888a96192d</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check if Approval is approved or rejceted">d61aa02adba4d010f92e96888a96192d</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create Incident</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>561a602adba4d010f92e96888a9619be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:12:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>1266</x>
+        <y>543</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=561a602adba4d010f92e96888a9619be"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>561a602adba4d010f92e96888a9619be</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1a602adba4d010f92e96888a9619be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:12:14</sys_updated_on>
+        <value>//Trying for force an update with new comments!&#13;
+var gr = new GlideRecord('x_mema_morning_che_jumpbox');&#13;
+gr.orderByDesc('sys_created_on');&#13;
+gr.chooseWindow(0,1);&#13;
+gr.query();&#13;
+if (gr.next()) {&#13;
+	var inc = new GlideRecord('incident');&#13;
+	var comp = gr.company;&#13;
+	var email = gr.email_address;&#13;
+	var start = gr.start;&#13;
+	var sn = gr.loc;&#13;
+	var name = gr.name;&#13;
+	var worknote = '[code]&lt;a href="https://' + gs.getProperty('instance_name') + '.service-now.com/nav_to.do?uri=x_mema_morning_che_jumpbox_list.do?sys_id=' + current.sys_id + '"&gt;Jumpbox Access Entries&lt;/a&gt;[/code]' + '\n Servername: ' + sn + '\n start: ' + start + '\n Name: ' + name + '\n Company: ' + comp + '\n Email: ' + email;&#13;
+	inc.newRecord();&#13;
+	inc.initialize();&#13;
+	inc.caller_id.setDisplayValue('Swarup Chakravarthy');&#13;
+	inc.short_description = "Jumpbox Access: " + sn;&#13;
+	inc.assignment_group.setDisplayValue('Sys Admin');&#13;
+	inc.category = "Jumpbox Access";&#13;
+	inc.urgency = 3;&#13;
+	inc.priority = 3;&#13;
+	inc.work_notes = worknote;&#13;
+	inc.update();&#13;
+	}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>561a602adba4d010f92e96888a9619be</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1a602adba4d010f92e96888a9619be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:12:14</sys_updated_on>
+        <value>//Trying for force an update with new comments!&#13;
+var gr = new GlideRecord('x_mema_morning_che_jumpbox');&#13;
+gr.orderByDesc('sys_created_on');&#13;
+gr.chooseWindow(0,1);&#13;
+gr.query();&#13;
+if (gr.next()) {&#13;
+	var inc = new GlideRecord('incident');&#13;
+	var comp = gr.company;&#13;
+	var email = gr.email_address;&#13;
+	var start = gr.start;&#13;
+	var sn = gr.loc;&#13;
+	var name = gr.name;&#13;
+	var worknote = '[code]&lt;a href="https://' + gs.getProperty('instance_name') + '.service-now.com/nav_to.do?uri=x_mema_morning_che_jumpbox_list.do?sys_id=' + current.sys_id + '"&gt;Jumpbox Access Entries&lt;/a&gt;[/code]' + '\n Servername: ' + sn + '\n start: ' + start + '\n Name: ' + name + '\n Company: ' + comp + '\n Email: ' + email;&#13;
+	inc.newRecord();&#13;
+	inc.initialize();&#13;
+	inc.caller_id.setDisplayValue('Swarup Chakravarthy');&#13;
+	inc.short_description = "Jumpbox Access: " + sn;&#13;
+	inc.assignment_group.setDisplayValue('Sys Admin');&#13;
+	inc.category = "Jumpbox Access";&#13;
+	inc.urgency = 3;&#13;
+	inc.priority = 3;&#13;
+	inc.work_notes = worknote;&#13;
+	inc.update();&#13;
+	}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create Incident">561a602adba4d010f92e96888a9619be</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1a602adba4d010f92e96888a9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>961aa02adba4d010f92e96888a961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>1418</x>
+        <y>637</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=961aa02adba4d010f92e96888a961933"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>18</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notify John</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>133</x>
+        <y>474</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=9a1aa02adba4d010f92e96888a961927"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Name: ${requester}&#13;
+Company: ${company}&#13;
+Email Address: ${email_address}&#13;
+Start (24h time): ${start}&#13;
+Finish (24h time): ${finish}&#13;
+Server name \ Where the change is being applied: ${loc}&#13;
+Short description of the change being made: ${desc}&#13;
+Why is the change being made: ${why}&#13;
+Brief summary of steps that are to be taken: ${steps}&#13;
+Backup \ Restore plan: ${backup}&#13;
+Test plan: ${test}&#13;
+Link: ${URI}&#13;
+&#13;
+Please respond to this email (CC Sysadmin so everyone knows it's been responded to) with the following template&#13;
+&#13;
+approved: &#13;
+comments: </value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>561aa02adba4d010f92e96888a961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>New Jumpbox Request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>921aa02adba4d010f92e96888a961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>de1aa02adba4d010f92e96888a961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>561aa02adba4d010f92e96888a961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>New Jumpbox Request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Name: ${requester}&#13;
+Company: ${company}&#13;
+Email Address: ${email_address}&#13;
+Start (24h time): ${start}&#13;
+Finish (24h time): ${finish}&#13;
+Server name \ Where the change is being applied: ${loc}&#13;
+Short description of the change being made: ${desc}&#13;
+Why is the change being made: ${why}&#13;
+Brief summary of steps that are to be taken: ${steps}&#13;
+Backup \ Restore plan: ${backup}&#13;
+Test plan: ${test}&#13;
+Link: ${URI}&#13;
+&#13;
+Please respond to this email (CC Sysadmin so everyone knows it's been responded to) with the following template&#13;
+&#13;
+approved: &#13;
+comments: </value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>de1aa02adba4d010f92e96888a961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a1aa02adba4d010f92e96888a961927</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>921aa02adba4d010f92e96888a961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notify John">9a1aa02adba4d010f92e96888a961927</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>1</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notify Sysadmin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>95</x>
+        <y>591</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1e1aa02adba4d010f92e96888a961937"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>521aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Click on this ${URI+&amp;sysparm_view=Sysadmin} to see the request</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1aa02adba4d010f92e96888a961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>New Jumpbox Request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1aa02adba4d010f92e96888a961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>New Jumpbox Request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Click on this ${URI+&amp;sysparm_view=Sysadmin} to see the request</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>521aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e1aa02adba4d010f92e96888a961937</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notify Sysadmin">1e1aa02adba4d010f92e96888a961937</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>921aa02adba4d010f92e96888a961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Send Approved Email</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>1077</x>
+        <y>550</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d61aa02adba4d010f92e96888a961925"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5a1aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Hi ${requester},&#13;
+&#13;
+Your request has been approved.&#13;
+&#13;
+Start (24h time): 	 ${start}&#13;
+Finish (24h time): 	 ${finish}&#13;
+Server name \ Where the change is being applied: 	 ${loc}&#13;
+Short description of the change being made:	 ${desc}&#13;
+Brief summary of steps that are to be taken: 	 ${steps}&#13;
+Why is the change being made: 	 ${why}&#13;
+Test plan: 	 ${test}&#13;
+Backup \ Restore plan: 	 ${backup}&#13;
+&#13;
+Approver Comment(s):        ${rejectresponse}&#13;
+&#13;
+If there are any changes to the above details please inform MMEM IT immediately.&#13;
+&#13;
+Thanks,&#13;
+MMEM IT</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>961aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Jumpbox Access is Approved</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d21aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+answer = current.email_address;</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>961aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Jumpbox Access is Approved</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5a1aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Hi ${requester},&#13;
+&#13;
+Your request has been approved.&#13;
+&#13;
+Start (24h time): 	 ${start}&#13;
+Finish (24h time): 	 ${finish}&#13;
+Server name \ Where the change is being applied: 	 ${loc}&#13;
+Short description of the change being made:	 ${desc}&#13;
+Brief summary of steps that are to be taken: 	 ${steps}&#13;
+Why is the change being made: 	 ${why}&#13;
+Test plan: 	 ${test}&#13;
+Backup \ Restore plan: 	 ${backup}&#13;
+&#13;
+Approver Comment(s):        ${rejectresponse}&#13;
+&#13;
+If there are any changes to the above details please inform MMEM IT immediately.&#13;
+&#13;
+Thanks,&#13;
+MMEM IT</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61aa02adba4d010f92e96888a961925</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d21aa02adba4d010f92e96888a961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+answer = current.email_address;</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Send Approved Email">d61aa02adba4d010f92e96888a961925</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d21aa02adba4d010f92e96888a961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Send Rejected Email</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5a1aa02adba4d010f92e96888a961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>1235</x>
+        <y>676</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5a1aa02adba4d010f92e96888a961931"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Jumpbox Access Rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>521aa02adba4d010f92e96888a961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+answer = current.email_address;</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1aa02adba4d010f92e96888a961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Hi ${requester},&#13;
+&#13;
+Unfortunately your request to access the MM Jumpbox has been rejected.&#13;
+&#13;
+The following comments were given by ${sys_updated_by} about the rejection:&#13;
+${rejectresponse}&#13;
+&#13;
+Please resolve any issues with your request and then re-submit.&#13;
+&#13;
+Do not respond to this email as this email address is not monitored.&#13;
+&#13;
+Thanks,&#13;
+&#13;
+MMEM IT Team.&#13;
+&#13;
+ </value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3585b05e4f91b2807b679a701310c7eb</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>952de4634ff47a407b679a701310c70b</value>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Jumpbox Access Rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>Hi ${requester},&#13;
+&#13;
+Unfortunately your request to access the MM Jumpbox has been rejected.&#13;
+&#13;
+The following comments were given by ${sys_updated_by} about the rejection:&#13;
+${rejectresponse}&#13;
+&#13;
+Please resolve any issues with your request and then re-submit.&#13;
+&#13;
+Do not respond to this email as this email address is not monitored.&#13;
+&#13;
+Thanks,&#13;
+&#13;
+MMEM IT Team.&#13;
+&#13;
+ </value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1aa02adba4d010f92e96888a961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961931</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>521aa02adba4d010f92e96888a961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+answer = current.email_address;</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Send Rejected Email">5a1aa02adba4d010f92e96888a961931</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>de1aa02adba4d010f92e96888a961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Email Sent to true</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>561aa02adba4d010f92e96888a961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>702</x>
+        <y>560</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=561aa02adba4d010f92e96888a961930"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>561aa02adba4d010f92e96888a961930</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>email_sent=true^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>561aa02adba4d010f92e96888a961930</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>email_sent=true^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Email Sent to true">561aa02adba4d010f92e96888a961930</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>921aa02adba4d010f92e96888a961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>21</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Email Sent to true</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5a1aa02adba4d010f92e96888a961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>715</x>
+        <y>697</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5a1aa02adba4d010f92e96888a961939"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961939</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>email_sent=true^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a1aa02adba4d010f92e96888a961939</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>email_sent=true^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Email Sent to true">5a1aa02adba4d010f92e96888a961939</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>20</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Timer to give time for the table to update so that the script does not pull the wrong data</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>1038</x>
+        <y>673</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=161aa02adba4d010f92e96888a961934"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>f7c7d3a60a0a0b6500cc36babf981351</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>521aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>561aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5a1aa02adba4d010f92e96888a961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>921aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>961aa02adba4d010f92e96888a961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>de1aa02adba4d010f92e96888a961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>961aa02adba4d010f92e96888a961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>de1aa02adba4d010f92e96888a961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5a1aa02adba4d010f92e96888a961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>da1aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>561aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>f7c7d3a60a0a0b6500cc36babf981351</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>521aa02adba4d010f92e96888a961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>161aa02adba4d010f92e96888a961934</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>921aa02adba4d010f92e96888a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Timer to give time for the table to update so that the script does not pull the wrong data">161aa02adba4d010f92e96888a961934</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>561aa02adba4d010f92e96888a961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>19</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Timer to give time for the table to update so that the script does not pull the wrong data</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>880</x>
+        <y>545</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1a1aa02adba4d010f92e96888a961929"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>f7c7d3a60a0a0b6500cc36babf981351</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>521aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>561aa02adba4d010f92e96888a96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5a1aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>921aa02adba4d010f92e96888a96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>961aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1aa02adba4d010f92e96888a961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d21aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>de1aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>561aa02adba4d010f92e96888a96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9e1aa02adba4d010f92e96888a961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>521aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d21aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>f7c7d3a60a0a0b6500cc36babf981351</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>de1aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5a1aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>921aa02adba4d010f92e96888a96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>961aa02adba4d010f92e96888a96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1a1aa02adba4d010f92e96888a961929</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>9a1aa02adba4d010f92e96888a96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Timer to give time for the table to update so that the script does not pull the wrong data">1a1aa02adba4d010f92e96888a961929</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>de1aa02adba4d010f92e96888a96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61a602adba4d010f92e96888a9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+        <x>289</x>
+        <y>589</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d61a602adba4d010f92e96888a9619c0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61a602adba4d010f92e96888a9619c0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121a602adba4d010f92e96888a9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>approvedINNo,Yes^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61a602adba4d010f92e96888a9619c0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1a602adba4d010f92e96888a9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61a602adba4d010f92e96888a9619c0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>121a602adba4d010f92e96888a9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>approvedINNo,Yes^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d61a602adba4d010f92e96888a9619c0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>5e1a602adba4d010f92e96888a9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for Approval">d61a602adba4d010f92e96888a9619c0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>d61a602adba4d010f92e96888a9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">de1aa02adba4d010f92e96888a961932</condition>
+        <from display_value="Send Rejected Email">5a1aa02adba4d010f92e96888a961931</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="End">961aa02adba4d010f92e96888a961933</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">561aa02adba4d010f92e96888a961937</condition>
+        <from display_value="Timer to give time for the table to update so that the script does not pull the wrong data">161aa02adba4d010f92e96888a961934</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Send Rejected Email">5a1aa02adba4d010f92e96888a961931</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">1e1aa02adba4d010f92e96888a96192e</condition>
+        <from display_value="Check if Approval is approved or rejceted">d61aa02adba4d010f92e96888a96192d</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>121aa02adba4d010f92e96888a96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Set Email Sent to true">561aa02adba4d010f92e96888a961930</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">5e1aa02adba4d010f92e96888a96192f</condition>
+        <from display_value="Begin">d21aa02adba4d010f92e96888a96192f</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Notify John">9a1aa02adba4d010f92e96888a961927</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">921aa02adba4d010f92e96888a961931</condition>
+        <from display_value="Set Email Sent to true">561aa02adba4d010f92e96888a961930</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>161aa02adba4d010f92e96888a96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Timer to give time for the table to update so that the script does not pull the wrong data">1a1aa02adba4d010f92e96888a961929</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d21aa02adba4d010f92e96888a961927</condition>
+        <from display_value="Send Approved Email">d61aa02adba4d010f92e96888a961925</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Create Incident">561a602adba4d010f92e96888a9619be</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">121aa02adba4d010f92e96888a96193a</condition>
+        <from display_value="Set Email Sent to true">5a1aa02adba4d010f92e96888a961939</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Timer to give time for the table to update so that the script does not pull the wrong data">161aa02adba4d010f92e96888a961934</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">921aa02adba4d010f92e96888a961939</condition>
+        <from display_value="Notify Sysadmin">1e1aa02adba4d010f92e96888a961937</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>1a1aa02adba4d010f92e96888a96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Wait for Approval">d61a602adba4d010f92e96888a9619c0</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1e1a602adba4d010f92e96888a9619bf</condition>
+        <from display_value="Create Incident">561a602adba4d010f92e96888a9619be</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="End">961aa02adba4d010f92e96888a961933</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">121aa02adba4d010f92e96888a961929</condition>
+        <from display_value="Notify John">9a1aa02adba4d010f92e96888a961927</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Notify Sysadmin">1e1aa02adba4d010f92e96888a961937</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">de1aa02adba4d010f92e96888a96192c</condition>
+        <from display_value="Timer to give time for the table to update so that the script does not pull the wrong data">1a1aa02adba4d010f92e96888a961929</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>1e1aa02adba4d010f92e96888a96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Send Approved Email">d61aa02adba4d010f92e96888a961925</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">9a1aa02adba4d010f92e96888a96192e</condition>
+        <from display_value="Check if Approval is approved or rejceted">d61aa02adba4d010f92e96888a96192d</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>921aa02adba4d010f92e96888a96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Set Email Sent to true">5a1aa02adba4d010f92e96888a961939</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d61a602adba4d010f92e96888a9619c1</condition>
+        <from display_value="Wait for Approval">d61a602adba4d010f92e96888a9619c0</from>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:45</sys_created_on>
+        <sys_id>d21aa02adba4d010f92e96888a96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:45</sys_updated_on>
+        <to display_value="Check if Approval is approved or rejceted">d61aa02adba4d010f92e96888a96192d</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-06 01:09:44</sys_created_on>
+        <sys_id>021a602adba4d010f92e96888a9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-06 01:09:44</sys_updated_on>
+        <workflow_version display_value="JumpboxAccess">0e1a602adba4d010f92e96888a9619bb</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=a229c5514ffa76007b679a701310c753^sys_id!=0e1a602adba4d010f92e96888a9619bb">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

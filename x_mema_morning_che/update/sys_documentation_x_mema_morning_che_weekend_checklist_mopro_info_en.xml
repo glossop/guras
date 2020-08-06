@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="mopro_info" label="List issues with Cetnaj MoPro" language="en" table="x_mema_morning_che_weekend_checklist">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>mopro_info</element>
+            <help/>
+            <hint/>
+            <label>List issues with Cetnaj MoPro</label>
+            <language>en</language>
+            <name>x_mema_morning_che_weekend_checklist</name>
+            <plural>List issues with Cetnaj MoPros</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-03-15 04:28:42</sys_created_on>
+            <sys_id>891fa80cdbd4bb4011e4e434059619a5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>List issues with Cetnaj MoPro</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_documentation_x_mema_morning_che_weekend_checklist_mopro_info_en</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-17 22:31:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

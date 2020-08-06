@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="autotics" label="Autotics" language="en" table="x_mema_morning_che_morning_checklist_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>autotics</element>
+            <help/>
+            <hint>Email mm.sdesk@mmem.com.au and wait for response</hint>
+            <label>Autotics</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <plural>Autotics</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-04-18 04:23:40</sys_created_on>
+            <sys_id>e96b940c4fda36c07b679a701310c7bc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Autotics</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_documentation_x_mema_morning_che_morning_checklist_table_autotics_en</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-04-18 05:54:31</sys_updated_on>
+            <url>https://metalmanufactures.service-now.com/kb_view.do?sysparm_article=KB0011369</url>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

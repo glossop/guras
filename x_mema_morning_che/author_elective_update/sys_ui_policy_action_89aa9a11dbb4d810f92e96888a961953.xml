@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>rm_unibis_info</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-14 22:26:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>89aa9a11dbb4d810f92e96888a961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rm_unibis_info</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_89aa9a11dbb4d810f92e96888a961953</sys_update_name>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-14 22:26:20</sys_updated_on>
+        <table>x_mema_morning_che_morning_checklist_table</table>
+        <ui_policy display_value="MC-RFN">137a929ddb74d810f92e96888a9619ac</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</application>
+        <file_path/>
+        <instance_id>ddaf897b4fbb5a00152a99701310c74c</instance_id>
+        <instance_name>metalmanufacturesdev</instance_name>
+        <name>sys_ui_policy_action_89aa9a11dbb4d810f92e96888a961953</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>rm_unibis_info</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>sandeep.shrestha</sys_created_by><sys_created_on>2020-05-14 22:26:20</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>89aa9a11dbb4d810f92e96888a961953</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rm_unibis_info</sys_name><sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope><sys_update_name>sys_ui_policy_action_89aa9a11dbb4d810f92e96888a961953</sys_update_name><sys_updated_by>sandeep.shrestha</sys_updated_by><sys_updated_on>2020-05-14 22:26:20</sys_updated_on><table>x_mema_morning_che_morning_checklist_table</table><ui_policy display_value="MC-RFN">137a929ddb74d810f92e96888a9619ac</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>182742732</payload_hash>
+        <record_name>rm_unibis_info</record_name>
+        <reverted_from/>
+        <source>57007a6edbd49050f92e96888a961975</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-14 22:26:20</sys_created_on>
+        <sys_id>dc0b9e11dbb4d810f92e96888a9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172154bac410000001</sys_recorded_at>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-14 22:26:20</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>d40b9e1164b4d8101a55ddcfa2c6f0f8</update_guid>
+        <update_guid_history>d40b9e1164b4d8101a55ddcfa2c6f0f8:182742732</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2020-05-14 22:27:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>24309725ee4044208a9387d87b2c0400</sys_id>
+        <sys_metadata>89aa9a11dbb4d810f92e96888a961953</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rm_unibis_info</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_parent display_value="MC-RFN">137a929ddb74d810f92e96888a9619ac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_scope_delete display_value="">7003cbb87ba047a096bc27a7c639d3a1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_89aa9a11dbb4d810f92e96888a961953</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_89aa9a11dbb4d810f92e96888a961953">dc0b9e11dbb4d810f92e96888a9619f8</sys_update_version>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-14 22:27:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

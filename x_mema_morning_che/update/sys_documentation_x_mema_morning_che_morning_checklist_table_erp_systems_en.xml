@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="erp_systems" label="ERP Systems" language="en" table="x_mema_morning_che_morning_checklist_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>erp_systems</element>
+            <help/>
+            <hint/>
+            <label>ERP Systems</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <plural>ERP Systems</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-12-14 22:11:13</sys_created_on>
+            <sys_id>1f4dc4694f07c7007b679a701310c7a0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>ERP Systems</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_documentation_x_mema_morning_che_morning_checklist_table_erp_systems_en</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-03-17 23:56:11</sys_updated_on>
+            <url>https://metalmanufactures.service-now.com/kb_view.do?sysparm_article=KB0011787</url>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

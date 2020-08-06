@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rm_unibis" table="x_mema_morning_che_morning_checklist_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rm_unibis</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OK</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-04-18 04:42:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f09f1ccc4fda36c07b679a701310c79d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-04-18 04:42:03</sys_updated_on>
+            <value>OK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rm_unibis</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-04-18 04:42:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d29f98cc4fda36c07b679a701310c743</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-04-18 04:42:13</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rm_unibis</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Repeat Error</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-05-03 23:41:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>812479c54fea3600f19fd0311310c7cc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-05-04 05:26:45</sys_updated_on>
+            <value>Repeat Error</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rm_unibis</element>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-04-18 04:42:00</sys_created_on>
+            <sys_id>48b1f75bdb1210100ec52737489619e0</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>rm_unibis</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_choice_x_mema_morning_che_morning_checklist_table_rm_unibis</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-05-04 05:26:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="phone_number" label="Phone Number" language="en" table="x_mema_morning_che_jumpbox">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <help/>
+            <hint/>
+            <label>Phone Number</label>
+            <language>en</language>
+            <name>x_mema_morning_che_jumpbox</name>
+            <plural>Phone Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-05-17 01:34:59</sys_created_on>
+            <sys_id>09ea8d514ffa76007b679a701310c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Phone Number</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_documentation_x_mema_morning_che_jumpbox_phone_number_en</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-05-17 01:34:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

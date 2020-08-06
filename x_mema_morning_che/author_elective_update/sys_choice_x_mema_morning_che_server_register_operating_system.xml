@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="operating_system" table="x_mema_morning_che_server_register" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2000 (32-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a188204dbac6f00473de7148a9619e9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:21</sys_updated_on>
+            <value>2000-32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2003 (32-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:03:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82388204dbac6f00473de7148a9619ea</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:15</sys_updated_on>
+            <value>2003-32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2003 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:03:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00584a04dbac6f00473de7148a961959</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:11</sys_updated_on>
+            <value>2003-64</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2003 R2 (32-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:03:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a580a04dbac6f00473de7148a961924</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:06</sys_updated_on>
+            <value>2003r2-32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2003 R2 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:03:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e68c240dbac6f00473de7148a9619fb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:03</sys_updated_on>
+            <value>2003r2-64</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2008 (32-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:03:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c788a4cdb6c6f00473de7148a961945</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:08:58</sys_updated_on>
+            <value>2008-32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2008 (64--bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c888a04dbac6f00473de7148a9619e5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:08:54</sys_updated_on>
+            <value>2008-64</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2008 R2</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:06:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0094e04dbac6f00473de7148a961901</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:08:49</sys_updated_on>
+            <value>2008r2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2012</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:06:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62094e04dbac6f00473de7148a9619cd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:08:09</sys_updated_on>
+            <value>2012</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2012 R2</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:06:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0019c244dbac6f00473de7148a9619ff</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:08:40</sys_updated_on>
+            <value>2012r2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server 2016</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:06:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c619c244dbac6f00473de7148a9619ac</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:08:44</sys_updated_on>
+            <value>2016</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CentOS</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:59:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a05742ccdb6c6f00473de7148a9619aa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 00:59:29</sys_updated_on>
+            <value>centos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Red Hat Enterprise Linux</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:59:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5778a4cdb6c6f00473de7148a961943</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 00:59:46</sys_updated_on>
+            <value>rhel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Linux SCO</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:59:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de878a4cdb6c6f00473de7148a961943</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 00:59:55</sys_updated_on>
+            <value>sco</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ubuntu</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:06:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5829c244dbac6f00473de7148a9619ff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:52</sys_updated_on>
+            <value>ubuntu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows 10 (32-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f89742ccdb6c6f00473de7148a9619aa</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:32</sys_updated_on>
+            <value>win10-32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows 10 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:01:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04a7ce80dbac6f00473de7148a96199c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:36</sys_updated_on>
+            <value>win10-64</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows 7 (32-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:02:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20f7c604dbac6f00473de7148a9619b4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:40</sys_updated_on>
+            <value>win7-32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows 7 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence/>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 01:02:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9418c204dbac6f00473de7148a96198d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 01:09:44</sys_updated_on>
+            <value>win7-64</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CentOS 4/5/6/7 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3cb706b4db33a30011e4e4340596191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:55</sys_updated_on>
+            <value>CentOS 4/5/6/7 (64-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Linux</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9b706b4db33a30011e4e4340596199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:57</sys_updated_on>
+            <value>Linux</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Linux CentOS/RHEL</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34b706b4db33a30011e4e43405961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:55</sys_updated_on>
+            <value>Linux CentOS/RHEL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft Windows 10 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30b706b4db33a30011e4e43405961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:56</sys_updated_on>
+            <value>Microsoft Windows 10 (64-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft Windows 7 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81b706b4db33a30011e4e43405961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:56</sys_updated_on>
+            <value>Microsoft Windows 7 (64-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft Windows Server 2000 (32-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcb706b4db33a30011e4e4340596190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:55</sys_updated_on>
+            <value>Microsoft Windows Server 2000 (32-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft Windows Server 2003 Standard (32-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85b706b4db33a30011e4e43405961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:56</sys_updated_on>
+            <value>Microsoft Windows Server 2003 Standard (32-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft Windows Server 2008 R2</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78b706b4db33a30011e4e43405961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:56</sys_updated_on>
+            <value>Microsoft Windows Server 2008 R2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft Windows Server 2012</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcb742b4db33a30011e4e4340596190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:55</sys_updated_on>
+            <value>Microsoft Windows Server 2012</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft Windows Server 2016 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1db706b4db33a30011e4e434059619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:57</sys_updated_on>
+            <value>Microsoft Windows Server 2016 (64-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsort Windows Server 2012 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99b706b4db33a30011e4e434059619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:57</sys_updated_on>
+            <value>Microsort Windows Server 2012 (64-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oracle Solaris 10 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55b706b4db33a30011e4e434059619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:58</sys_updated_on>
+            <value>Oracle Solaris 10 (64-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Red Hat Enterprise Linux 6 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8b706b4db33a30011e4e43405961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:56</sys_updated_on>
+            <value>Red Hat Enterprise Linux 6 (64-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Red Hat Enterprise Linux 7 (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8db706b4db33a30011e4e43405961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:57</sys_updated_on>
+            <value>Red Hat Enterprise Linux 7 (64-bit)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ubuntu Linux (64-bit)</label>
+            <language>en</language>
+            <name>x_mema_morning_che_server_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2019-02-20 22:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09b706b4db33a30011e4e43405961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2019-02-20 22:19:56</sys_updated_on>
+            <value>Ubuntu Linux (64-bit)</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>operating_system</element>
+            <name>x_mema_morning_che_server_register</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-09-10 00:59:22</sys_created_on>
+            <sys_id>04b13b5bdb1210100ec527374896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>operating_system</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_choice_x_mema_morning_che_server_register_operating_system</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-09-10 00:59:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

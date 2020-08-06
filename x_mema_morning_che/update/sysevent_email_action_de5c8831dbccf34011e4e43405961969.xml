@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_mema_morning_che_weekend_checklist</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: x-large;"><strong>Weekend&nbsp;Checklist ${date}&nbsp;</strong></span><br /><span style="font-size: medium;"><strong>Created by: ${sys_created_by}</strong></span></p>
+<table style="background-color: #e2efda; border-color: #000000; height: 367px;" border="1" width="722">
+<tbody>
+<tr>
+<td>
+<p style="text-align: center;">&nbsp;<span style="font-size: 12pt;"><strong>System</strong></span></p>
+</td>
+<td style="text-align: center;"><span style="text-align: center; background-color: #e2efda;">&nbsp;</span><span style="font-size: 12pt;"><strong>Status</strong></span></td>
+<td style="text-align: center;">&nbsp;<span style="text-align: center; background-color: #e2efda;">&nbsp;<span style="font-size: 16px;"><strong>Comment</strong></span></span></td>
+</tr>
+<tr>
+<td>&nbsp;<span style="background-color: #e2efda;">IPMONITOR:</span></td>
+<td>&nbsp;<span style="background-color: #e2efda;">${ipmon}</span></td>
+<td>&nbsp;${ipmon_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BRANCH ROUTERS DOWN:&nbsp;</td>
+<td>&nbsp;${routers}</td>
+<td>&nbsp;${routers_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BRANCH SERVER NIGHT FLAGS:&nbsp;</td>
+<td>&nbsp;${flags}</td>
+<td>&nbsp;${flags_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BRANCH SERVER DB EXTENTS:&nbsp;</td>
+<td>&nbsp;${extents}</td>
+<td>&nbsp;${extents_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BRANCH SERVER DISK:&nbsp;</td>
+<td>&nbsp;${disk}</td>
+<td>&nbsp;${disk_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOCORIGIN EDI:&nbsp;</td>
+<td>&nbsp;${edi}</td>
+<td>&nbsp;${edi_info}</td>
+</tr>
+<tr>
+<td>&nbsp;NATIONAL ERP:&nbsp;</td>
+<td>&nbsp;${nat_unibis}</td>
+<td>&nbsp;${nat_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;RUSHMORE ERP:&nbsp;</td>
+<td>&nbsp;${rm_unibis}</td>
+<td>&nbsp;${rm_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOTMAR AU ERP:&nbsp;</td>
+<td>&nbsp;${dot_unibis}</td>
+<td>&nbsp;${dot_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOTMAR NZ ERP:&nbsp;</td>
+<td>&nbsp;${dnz_unibis}</td>
+<td>&nbsp;${dnz_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;CETNAJ ERP:</td>
+<td>&nbsp;${mopro}</td>
+<td>&nbsp;${mopro_info}</td>
+</tr>
+<tr>
+<td>&nbsp;GAMART ERP:</td>
+<td>&nbsp;${nav}</td>
+<td>&nbsp;${nav_info}</td>
+</tr>
+<tr>
+<td>&nbsp;GO ELECTRICAL ERP:</td>
+<td>&nbsp;${gopro}</td>
+<td>&nbsp;${gopro_info}</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Weekend Checklist</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups>95cc2c234ff47a407b679a701310c7da</recipient_groups>
+        <recipient_users>3585b05e4f91b2807b679a701310c7eb</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Weekend Checklist ${date}</subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-03-08 02:25:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>de5c8831dbccf34011e4e43405961969</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Weekend Checklist</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sysevent_email_action_de5c8831dbccf34011e4e43405961969</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-03-21 02:33:25</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

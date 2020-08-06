@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Basic Info" section_id="ca413145db0de380473de7148a9619a1" sys_domain="global" table="x_mema_morning_che_jumpbox" version="3" view="Sysadmin">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start</element>
+            <position>0</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_id>4641b145db0de380473de7148a961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finish</element>
+            <position>1</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_id>ca41b145db0de380473de7148a961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loc</element>
+            <position>2</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_id>4e41b145db0de380473de7148a961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outage</element>
+            <position>3</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_id>ce41b145db0de380473de7148a961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_id>4241b145db0de380473de7148a961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester</element>
+            <position>5</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_id>c241b145db0de380473de7148a961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>6</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_id>4641b145db0de380473de7148a961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email_address</element>
+            <position>7</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_id>c641b145db0de380473de7148a961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <position>8</position>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_id>4a41b145db0de380473de7148a961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Info" display_value="Basic Info" name="x_mema_morning_che_jumpbox" sys_domain="global" view="ca413145db0de380473de7148a96199d">ca413145db0de380473de7148a9619a1</sys_ui_section>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Basic Info</caption>
+            <header>false</header>
+            <name>x_mema_morning_che_jumpbox</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2018-10-07 22:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca413145db0de380473de7148a9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Basic Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_ui_section_ca413145db0de380473de7148a9619a1</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2018-10-07 22:27:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Sysadmin" name="Sysadmin">ca413145db0de380473de7148a96199d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

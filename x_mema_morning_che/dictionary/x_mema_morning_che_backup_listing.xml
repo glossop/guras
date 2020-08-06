@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Backup Listing" max_length="40" name="x_mema_morning_che_backup_listing" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="TDC" label="Location" max_length="16" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="North Rocks" value="NR"/>
+                <element inactive_on_update="false" label="Offsite" value="OFF"/>
+                <element inactive_on_update="false" label="Telstra Data Centre" value="TDC"/>
+            </choice>
+        </element>
+        <element display="true" label="Name" max_length="200" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="veeam" label="Service" max_length="40" name="service" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RSync" value="rsync"/>
+                <element inactive_on_update="false" label="Veeam" value="veeam"/>
+            </choice>
+        </element>
+    </element>
+</database>

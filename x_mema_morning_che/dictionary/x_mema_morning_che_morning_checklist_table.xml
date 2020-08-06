@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" label="Morning Checklist Table" max_length="40" name="x_mema_morning_che_morning_checklist_table" sizeclass="1" type="collection">
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Check emails for alerts" label="Alerts Mailbox" max_length="40" name="alertmb" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element active="false" label="List alerts mailbox errors :" max_length="4000" name="alertmb_info" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Email mm.sdesk@mmem.com.au and wait for response" label="Autotics" max_length="40" name="autotics" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element active="false" label="List Autotics issues:" max_length="4000" name="autotics_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Check Bi Emails for issues" label="BI" max_length="40" name="bi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List BI report errors \ info:" max_length="4000" name="bi_info" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="brun -&gt; sab569&#13;&#10;days 0 printer 99&#13;&#10;OK" label="Brun" max_length="40" name="brun" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element active="false" label="List brun issues:" max_length="4000" name="brun_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" display="true" label="BACKUP MAJOR" max_length="40" name="bupsm" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List errors with major backups:" max_length="4000" name="bupsm_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="BACKUP OVERNIGHT" max_length="40" name="bupson" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List errors with overnight backups:" max_length="4000" name="bupson_info" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" label="Cetnaj Backups" max_length="40" name="cetnaj_backups" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element active="false" label="List Cetnaj Backup info" max_length="4000" name="cetnaj_backups_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="CPM" max_length="40" name="cpm" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="list issues with CPM:" max_length="4000" name="cpm_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Log into Dotmar NZ GUI" label="DOTMAR NZ ERP" max_length="40" name="dnz_unibis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List Dotmar NZ Errors" max_length="4000" name="dnz_unibis_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Log into Dotmar AU GUI" label="DOTMAR AU ERP" max_length="40" name="dot_unibis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List Dotmar AU errors" max_length="4000" name="dot_unibis_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="\\10.1.2.235\ciface_data&#13;&#10;pending&#13;&#10;prique&#13;&#10;scan1" label="EDI" max_length="40" name="edi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List EDI issues:" max_length="4000" name="edi_info" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" label="ERP Systems" max_length="40" name="erp_systems" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="1" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="2" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="3" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element active="false" label="List ERP Errors" mandatory="true" max_length="4000" name="erp_systems_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="GO ELECTRICAL ERP" max_length="40" name="gopro" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List issues with Go Electrical MoPro" max_length="4000" name="gopro_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Check https://inf01 " label="IP MONITOR" max_length="40" name="ipmon" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List IP Monitor errors:" max_length="4000" name="ipmon_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Email mm.sdesk@mmem.com.au and check for response" label="EMAIL" max_length="40" name="lotus" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List Email errors:" max_length="4000" name="lotus_info" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="On National:&#13;&#10;cd /u0/unibis/D2/maintarc&#13;&#10;ls -l *03Apr*" label="Maintarc" max_length="40" name="maintarc" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element active="false" label="List Maintarc issues:" max_length="4000" name="maintarc_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="CETNAJ ERP" max_length="40" name="mopro" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List issues with Cetnaj MoPro" max_length="4000" name="mopro_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="ei511&#13;&#10;jsjb&#13;&#10;ei210, ei240, ei211, ei41, ei250&#13;&#10;arb569 to tsb606&#13;&#10;brun -&gt; sab569" label="NATIONAL ERP" max_length="40" name="natunibis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List issues with National Unibis:" max_length="4000" name="natunibis_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="GAMART ERP" max_length="40" name="nav" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List issues with Gamart Navision" max_length="4000" name="nav_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="PIM" max_length="40" name="pim" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="Error with PIM" max_length="4000" name="pim_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Check Email for send \ receive issues&#13;&#10;cd /u0/unibis/D2/maintarc&#13;&#10;ls -l *ddMMM*&#13;&#10;Check files exist numbered 00 to 10" label="MAINTENANCE" max_length="40" name="rcvprcmaint" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="list maintenance issues" max_length="4000" name="rcvprcmaint_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="cd /u0/unibis/D3/ardaily/reject&#13;&#10;cd /u0/unibis/D3/apdaily/reject&#13;&#10;cd /u0/unibis/D3/gldaily/reject&#13;&#10;cd /u0/unibis/D2/import/salesan/reject" label="REJECTS" max_length="40" name="rejects" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="list ar \ ap \ gl amounts:" max_length="4000" name="rejects_info" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" label="Rushmore edi" max_length="40" name="rm_edi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element active="false" label="List Rushmore EDI issues:" max_length="4000" name="rm_edi_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint=". unibis_live&#13;&#10;ugo_live.sh&#13;&#10;ei511&#13;&#10;ei209&#13;&#10;jsjb -&gt; ei210, ei240, ei241&#13;&#10;oe459" label="RUSHMORE ERP" max_length="40" name="rm_unibis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List Rushmore Unibis issues:" max_length="4000" name="rm_unibis_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Check http://inf01" label="ROUTERS" max_length="40" name="routers" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List offline routers:" max_length="4000" name="routers_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="RSYNC" max_length="40" name="rsync" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+            </choice>
+        </element>
+        <element label="Rsync info" max_length="4000" name="rsync_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="na" label="RUSHMORE FREE NUMBERS" max_length="40" name="rushm" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NA" sequence="0" value="na"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="error"/>
+                <element inactive_on_update="false" label="OK" sequence="2" value="ok"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="List issues with Rushmore free number" max_length="4000" name="rushm_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="/u0/unibis/D3/apdaily/reject - MMEM&#13;&#10;/u0/unibis/D2/apdaily/reject - RUSH" label="SERKO" max_length="40" name="serko" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Error" value="Error"/>
+                <element inactive_on_update="false" label="OK" value="Ok"/>
+            </choice>
+        </element>
+        <element label="List Serko Errors" max_length="4000" name="serko_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Look for red lights on the servers \ etc" label="SERVER ROOM" max_length="40" name="server_room" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List server room errors:" max_length="4000" name="server_room_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="http://hosbupdate.mml.internal/sysinfo/ " label="SYSINFO" max_length="40" name="sysinfo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
+                <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
+                <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
+            </choice>
+        </element>
+        <element label="List flags \ Extents \ Disk Space errors:" max_length="4000" name="sysinfo_info" type="string"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date" max_length="40" name="u_glide_date_1" type="glide_date" use_dynamic_default="true"/>
+    </element>
+</database>

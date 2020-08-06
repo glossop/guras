@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>Page to confirm the details has been submitted</description>
+        <direct>false</direct>
+        <endpoint>x_mema_morning_che_Jumpbox_Confirmation.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<html>
+
+<body style="background-color:FFCC99">
+
+<table id="tbl1" style="background-color:lemonchiffon" align="center">
+<br></br>
+<br></br>
+<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+<h1><center><font color="black">The request has been successfully submitted. MM It will be in contact with you shortly with further information.<br></br> You can now close the window.</font></center></h1>
+	
+	</table>
+	</body>
+	</html>
+
+</j:jelly>]]></html>
+        <name>Jumpbox_Confirmation</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-06-19 04:28:26</sys_created_on>
+        <sys_id>723e6fbb4f9bb600f19fd0311310c7a5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Jumpbox_Confirmation</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_ui_page_723e6fbb4f9bb600f19fd0311310c7a5</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2017-06-21 23:00:06</sys_updated_on>
+    </sys_ui_page>
+</record_update>

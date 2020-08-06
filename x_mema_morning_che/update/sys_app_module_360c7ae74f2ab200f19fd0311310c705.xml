@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Sys Admin">eb3c91f54fb13e807b679a701310c77b</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_mema_morning_che_jumpbox">email_sent!=true^EQ<item endquery="false" field="email_sent" goto="false" newquery="false" operator="!=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>JumpboxAccess</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_mema_morning_che_jumpbox</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>itil,x_mema_sysadmin.admin,x_mema_sysadmin.user,x_mema_jumpbox.external</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-05-11 23:19:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>360c7ae74f2ab200f19fd0311310c705</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Jumpbox</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_app_module_360c7ae74f2ab200f19fd0311310c705</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2018-10-05 04:50:40</sys_updated_on>
+        <timeline_page/>
+        <title>Jumpbox</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Jumpbox</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

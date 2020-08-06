@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>cetnaj_backups_info</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2018-10-11 03:37:51</sys_created_on>
+        <sys_id>daf45a46db4d6780473de7148a961927</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cetnaj_backups_info</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_daf45a46db4d6780473de7148a961927</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2018-10-11 03:38:05</sys_updated_on>
+        <table>x_mema_morning_che_morning_checklist_table</table>
+        <ui_policy display_value="MC-CetnajBackups">25d4d646db4d6780473de7148a9619b6</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

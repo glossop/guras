@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="edi_info" label="List EDI issues:" language="en" table="x_mema_morning_che_morning_checklist_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>edi_info</element>
+            <help/>
+            <hint/>
+            <label>List EDI issues:</label>
+            <language>en</language>
+            <name>x_mema_morning_che_morning_checklist_table</name>
+            <plural>List EDI issues:s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.reczniarek</sys_created_by>
+            <sys_created_on>2017-03-29 23:18:45</sys_created_on>
+            <sys_id>396f19394fb13e807b679a701310c77b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>List EDI issues:</sys_name>
+            <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+            <sys_update_name>sys_documentation_x_mema_morning_che_morning_checklist_table_edi_info_en</sys_update_name>
+            <sys_updated_by>john.reczniarek</sys_updated_by>
+            <sys_updated_on>2017-03-29 23:28:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

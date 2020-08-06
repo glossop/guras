@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_mema_morning_che_internal_change_log</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>${u_journal}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Internal Change Log</name>
+        <sms_alternate/>
+        <subject>Internal Change Log ${number}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-04 03:26:26</sys_created_on>
+        <sys_id>027868abdb9210100ec5273748961951</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Internal Change Log</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sysevent_email_template_027868abdb9210100ec5273748961951</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-04 03:27:33</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

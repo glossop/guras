@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_mema_morning_che_morning_checklist_table</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<table style="height: 57px; border-color: #000000;" border="solid" width="1000">
+<tbody>
+<tr>
+<td><span style="font-size: x-large;"><strong>Morning Checklist ${u_glide_date_1}&nbsp;</strong></span><br /><span style="font-size: medium;"><strong>Created by: ${sys_created_by}</strong></span></td>
+</tr>
+</tbody>
+</table>
+<table style="height: 900px; background-color: #e2efda; border-color: #000000;" border="1" width="1000">
+<tbody>
+<tr style="border-color: #000000;">
+<th>System</th>
+<th style="text-align: center;" align="left">Status</th>
+<th>&nbsp;Comment</th>
+</tr>
+<tr>
+<td>&nbsp;SERVER ROOM:&nbsp;</td>
+<td>&nbsp;${server_room}</td>
+<td>${server_room_info}</td>
+</tr>
+<tr>
+<td>&nbsp;IPMONITOR:&nbsp;</td>
+<td>&nbsp;${ipmon}</td>
+<td>&nbsp;${ipmon_info}</td>
+</tr>
+<tr>
+<td>&nbsp;ROUTERS DOWN:</td>
+<td>&nbsp;${routers}</td>
+<td>&nbsp;${routers_info}</td>
+</tr>
+<tr>
+<td>&nbsp;SYSINFO &ndash; EOD, EXTENTS, DISK:&nbsp;</td>
+<td>&nbsp;${sysinfo}</td>
+<td>&nbsp;${sysinfo_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BI REPORTS:</td>
+<td>&nbsp;${bi}</td>
+<td>&nbsp;${bi_info}</td>
+</tr>
+<tr>
+<td>&nbsp;NATIONAL ERP:</td>
+<td>&nbsp;${natunibis}</td>
+<td>&nbsp;${natunibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;RUSHMORE ERP:&nbsp;</td>
+<td>&nbsp;${rm_unibis}</td>
+<td>&nbsp;${rm_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOTMAR AU ERP:</td>
+<td>&nbsp;${dot_unibis}</td>
+<td>&nbsp;${dot_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOTMAR NZ ERP:</td>
+<td>&nbsp;${dnz_unibis}</td>
+<td>&nbsp;${dnz_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;CETNAJ ERP:</td>
+<td>&nbsp;${mopro}</td>
+<td>&nbsp;${mopro_info}</td>
+</tr>
+<tr>
+<td>&nbsp;GAMART ERP:</td>
+<td>&nbsp;${nav}</td>
+<td>&nbsp;${nav_info}</td>
+</tr>
+<tr>
+<td>&nbsp;GO ELECTRICAL ERP:</td>
+<td>&nbsp;${gopro}</td>
+<td>&nbsp;${gopro_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOCORIGIN EDI:&nbsp;</td>
+<td>&nbsp;${edi}</td>
+<td>&nbsp;${edi_info}</td>
+</tr>
+<tr>
+<td>&nbsp;PC MAINTENANCE:&nbsp;</td>
+<td>&nbsp;${rcvprcmaint}</td>
+<td>&nbsp;${rcvprcmaint_info}</td>
+</tr>
+<tr>
+<td>&nbsp;AR, AP, GL REJECTS:&nbsp;</td>
+<td>&nbsp;${rejects}</td>
+<td>&nbsp;${rejects_info}</td>
+</tr>
+<tr>
+<td>&nbsp;SERKO REJECTS:</td>
+<td>&nbsp;${serko}</td>
+<td>&nbsp;${serko_info}</td>
+</tr>
+<tr>
+<td>&nbsp;CPM:&nbsp;</td>
+<td>&nbsp;${cpm}</td>
+<td>&nbsp;${cpm_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BACKUP FAILURES - OVERNIGHT:&nbsp;</td>
+<td>&nbsp;${bupson}</td>
+<td>&nbsp;${bupson_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BACKUP FAILURES - MAJOR:&nbsp;</td>
+<td>&nbsp;${bupsm}</td>
+<td>&nbsp;${bupsm_info}</td>
+</tr>
+<tr>
+<td>&nbsp;EMAIL:&nbsp;</td>
+<td>&nbsp;${lotus}</td>
+<td>&nbsp;${lotus_info}</td>
+</tr>
+<tr>
+<td>&nbsp;PIM:</td>
+<td>&nbsp;${pim}&nbsp;</td>
+<td>&nbsp;${pim_info}</td>
+</tr>
+<tr>
+<td>RUSHMORE FREE NUMBERS:</td>
+<td>${rushm}</td>
+<td>${rushm_info}</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Morning Checlist</name>
+        <sms_alternate/>
+        <subject>Morning Checklist</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2017-04-09 23:14:24</sys_created_on>
+        <sys_id>11a70a994f4272c07b679a701310c718</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Morning Checlist</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sysevent_email_template_11a70a994f4272c07b679a701310c718</sys_update_name>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2020-05-14 23:07:03</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

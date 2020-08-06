@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>dot_unibis_info</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2019-03-18 00:24:45</sys_created_on>
+        <sys_id>47f35330db9c3f4011e4e434059619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dot_unibis_info</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_47f35330db9c3f4011e4e434059619c7</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2019-03-18 00:24:45</sys_updated_on>
+        <table>x_mema_morning_che_morning_checklist_table</table>
+        <ui_policy display_value="MC-DotUnibis">29e31330db9c3f4011e4e43405961974</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

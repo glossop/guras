@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Checks to make sure time \ dates are correct</description>
+        <field>approved</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Jumbox - valid time onSubmit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var startDate = g_form.getValue("start");
+    var endDate = g_form.getValue("finish");
+    var format = g_user_date_time_format;
+	
+    if (startDate === "" || endDate === "")
+        return true;
+
+    // get date strings into a number of milliseconds since 1970-01-01
+    var startDateMs = getDateFromFormat(startDate, format);
+	var endDateMs = getDateFromFormat(endDate, format);
+	if (startDateMs < endDateMs)
+		return true;
+	g_form.clearMessages();
+	
+	// 0 from "getDateFormat" means an invalid date string was passed to it
+	if (startDateMs === 0 || endDateMs === 0) {
+        if (startDate === 0)
+            g_form.addErrorMessage(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("start")));
+        if (endDate === 0)
+            g_form.addErrorMessage(new GwtMessage().getMessage("{0} is invalid", g_form.getLabelOf("finish")));
+        return false;
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>john.reczniarek</sys_created_by>
+        <sys_created_on>2018-10-11 04:15:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e52d9e0adb4d6780473de7148a9619a4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Jumbox - valid time onSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sys_script_client_e52d9e0adb4d6780473de7148a9619a4</sys_update_name>
+        <sys_updated_by>john.reczniarek</sys_updated_by>
+        <sys_updated_on>2018-10-25 22:43:38</sys_updated_on>
+        <table>x_mema_morning_che_jumpbox</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
