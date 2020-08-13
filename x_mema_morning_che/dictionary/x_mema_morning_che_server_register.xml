@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Server Register" max_length="40" name="x_mema_morning_che_server_register" sizeclass="3" type="collection">
+    <element label="Server Register" max_length="40" name="x_mema_morning_che_server_register" sizeclass="2" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false,ref_auto_completer=AJAXTableCompleter" choice="2" label="Backup and Replication Group" max_length="200" name="backup_and_replication_group" reference="x_mema_morning_che_backup_listing" reference_qual="javascript:&quot;location=&quot;+current.location" type="reference" use_dependent_field="true" use_reference_qualifier="advanced">
             <choice/>
         </element>
@@ -116,12 +116,15 @@
             </choice>
         </element>
         <index name="index">
-            <element name="backup_and_replication_group"/>
-        </index>
-        <index name="index2">
             <element name="ip_address"/>
         </index>
+        <index name="index2">
+            <element name="backup_and_replication_group"/>
+        </index>
         <index name="index3">
+            <element name="ip_address"/>
+        </index>
+        <index name="index4">
             <element name="sys_class_name"/>
         </index>
     </element>

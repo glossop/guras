@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
         <sys_created_on>2017-05-11 23:26:03</sys_created_on>
-        <sys_id>d848c5f84f3bfa00f19fd0311310c74b</sys_id>
+        <sys_id>04e0ebc8db2610100ec5273748961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Server name \ Where the change is being applied</sys_name>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
         <sys_update_name>sys_dictionary_x_mema_morning_che_jumpbox_loc</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-07-04 05:09:26</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-06 06:09:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_mema_morning_che_new_server</name>
+        <name>x_mema_morning_che_backup_listing</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>john.reczniarek</sys_created_by>
-        <sys_created_on>2018-09-11 05:41:37</sys_created_on>
-        <sys_id>4ca1b35bdb1210100ec527374896193f</sys_id>
+        <sys_created_on>2018-09-10 03:34:25</sys_created_on>
+        <sys_id>20e02fc8db2610100ec5273748961972</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_mema_morning_che_new_server</sys_name>
+        <sys_name>x_mema_morning_che_backup_listing</sys_name>
         <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
-        <sys_update_name>ua_table_licensing_config_4ca1b35bdb1210100ec527374896193f</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_20e02fc8db2610100ec5273748961972</sys_update_name>
         <sys_updated_by>john.reczniarek</sys_updated_by>
-        <sys_updated_on>2018-09-11 05:41:37</sys_updated_on>
+        <sys_updated_on>2018-09-10 03:34:25</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
