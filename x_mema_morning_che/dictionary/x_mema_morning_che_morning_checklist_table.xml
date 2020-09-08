@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" label="Morning Checklist Table" max_length="40" name="x_mema_morning_che_morning_checklist_table" sizeclass="1" type="collection">
+    <element attributes="live_feed=true" label="Morning Checklist Table" max_length="40" name="x_mema_morning_che_morning_checklist_table" sizeclass="3" type="collection">
         <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Check emails for alerts" label="Alerts Mailbox" max_length="40" name="alertmb" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
@@ -72,14 +72,14 @@
             </choice>
         </element>
         <element label="List Dotmar NZ Errors" max_length="4000" name="dnz_unibis_info" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Log into Dotmar AU GUI" label="DOTMAR AU ERP" max_length="40" name="dot_unibis" type="choice">
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Log into Dotmar AU GUI" label="DOTMAR AU ERP" max_length="40" name="dot_unibis" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
                 <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
-        <element label="List Dotmar AU errors" max_length="4000" name="dot_unibis_info" type="string"/>
+        <element active="false" label="List Dotmar AU errors" max_length="4000" name="dot_unibis_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="\\10.1.2.235\ciface_data&#13;&#10;pending&#13;&#10;prique&#13;&#10;scan1" label="EDI" max_length="40" name="edi" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
@@ -96,14 +96,14 @@
             </choice>
         </element>
         <element active="false" label="List ERP Errors" mandatory="true" max_length="4000" name="erp_systems_info" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="GO ELECTRICAL ERP" max_length="40" name="gopro" type="choice">
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" label="GO ELECTRICAL ERP" max_length="40" name="gopro" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
                 <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
-        <element label="List issues with Go Electrical MoPro" max_length="4000" name="gopro_info" type="string"/>
+        <element active="false" label="List issues with Go Electrical MoPro" max_length="4000" name="gopro_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="Check https://inf01 " label="IP MONITOR" max_length="40" name="ipmon" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
@@ -128,14 +128,14 @@
             </choice>
         </element>
         <element active="false" label="List Maintarc issues:" max_length="4000" name="maintarc_info" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="CETNAJ ERP" max_length="40" name="mopro" type="choice">
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" label="CETNAJ ERP" max_length="40" name="mopro" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
                 <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
-        <element label="List issues with Cetnaj MoPro" max_length="4000" name="mopro_info" type="string"/>
+        <element active="false" label="List issues with Cetnaj MoPro" max_length="4000" name="mopro_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Error" hint="ei511&#13;&#10;jsjb&#13;&#10;ei210, ei240, ei211, ei41, ei250&#13;&#10;arb569 to tsb606&#13;&#10;brun -&gt; sab569" label="NATIONAL ERP" max_length="40" name="natunibis" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
@@ -144,14 +144,14 @@
             </choice>
         </element>
         <element label="List issues with National Unibis:" max_length="4000" name="natunibis_info" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="GAMART ERP" max_length="40" name="nav" type="choice">
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" default="Error" label="GAMART ERP" max_length="40" name="nav" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
                 <element inactive_on_update="false" label="Error" sequence="1" value="Error"/>
                 <element inactive_on_update="false" label="Repeat Error" sequence="2" value="Repeat Error"/>
             </choice>
         </element>
-        <element label="List issues with Gamart Navision" max_length="4000" name="nav_info" type="string"/>
+        <element active="false" label="List issues with Gamart Navision" max_length="4000" name="nav_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Error" label="PIM" max_length="40" name="pim" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OK" sequence="0" value="OK"/>
