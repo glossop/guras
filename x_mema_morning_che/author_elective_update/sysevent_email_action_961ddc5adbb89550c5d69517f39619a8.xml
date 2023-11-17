@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_mema_morning_che_secops_checklist</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: x-large;"><strong>Weekend&nbsp;Checklist ${date}&nbsp;</strong></span><br /><span style="font-size: medium;"><strong>Created by: ${sys_created_by}</strong></span></p>
+<table style="background-color: #e2efda; border-color: #000000; height: 367px;" border="1" width="722">
+<tbody>
+<tr>
+<td>
+<p style="text-align: center;">&nbsp;<span style="font-size: 12pt;"><strong>System</strong></span></p>
+</td>
+<td style="text-align: center;"><span style="text-align: center; background-color: #e2efda;">&nbsp;</span><span style="font-size: 12pt;"><strong>Status</strong></span></td>
+<td style="text-align: center;">&nbsp;<span style="text-align: center; background-color: #e2efda;">&nbsp;<span style="font-size: 16px;"><strong>Comment</strong></span></span></td>
+</tr>
+<tr>
+<td>&nbsp;<span style="background-color: #e2efda;">IPMONITOR:</span></td>
+<td>&nbsp;<span style="background-color: #e2efda;">${ipmon}</span></td>
+<td>&nbsp;${ipmon_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BRANCH ROUTERS DOWN:&nbsp;</td>
+<td>&nbsp;${routers}</td>
+<td>&nbsp;${routers_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BRANCH SERVER NIGHT FLAGS:&nbsp;</td>
+<td>&nbsp;${flags}</td>
+<td>&nbsp;${flags_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BRANCH SERVER DB EXTENTS:&nbsp;</td>
+<td>&nbsp;${extents}</td>
+<td>&nbsp;${extents_info}</td>
+</tr>
+<tr>
+<td>&nbsp;BRANCH SERVER DISK:&nbsp;</td>
+<td>&nbsp;${disk}</td>
+<td>&nbsp;${disk_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOCORIGIN EDI:&nbsp;</td>
+<td>&nbsp;${edi}</td>
+<td>&nbsp;${edi_info}</td>
+</tr>
+<tr>
+<td>&nbsp;NATIONAL ERP:&nbsp;</td>
+<td>&nbsp;${nat_unibis}</td>
+<td>&nbsp;${nat_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;RUSHMORE ERP:&nbsp;</td>
+<td>&nbsp;${rm_unibis}</td>
+<td>&nbsp;${rm_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOTMAR AU ERP:&nbsp;</td>
+<td>&nbsp;${dot_unibis}</td>
+<td>&nbsp;${dot_unibis_info}</td>
+</tr>
+<tr>
+<td>&nbsp;DOTMAR NZ ERP:&nbsp;</td>
+<td>&nbsp;${dnz_unibis}</td>
+<td>&nbsp;${dnz_unibis_info}</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Sec Ops Check list</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="it.dept">95cc2c234ff47a407b679a701310c7da</recipient_groups>
+        <recipient_users>3585b05e4f91b2807b679a701310c7eb</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Sec Ops Checklist ${date}</subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2022-07-22 00:34:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>961ddc5adbb89550c5d69517f39619a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Sec Ops Check list</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_update_name>sysevent_email_action_961ddc5adbb89550c5d69517f39619a8</sys_update_name>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2022-07-22 00:35:58</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_translated_text action="DELETE" query="documentkey=961ddc5adbb89550c5d69517f39619a8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</application>
+        <file_path/>
+        <instance_id>ddaf897b4fbb5a00152a99701310c74c</instance_id>
+        <instance_name>metalmanufacturesdev</instance_name>
+        <name>sysevent_email_action_961ddc5adbb89550c5d69517f39619a8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_mema_morning_che_secops_checklist&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;approval.cancelled&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: x-large;"&gt;&lt;strong&gt;Weekend&amp;nbsp;Checklist ${date}&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style="font-size: medium;"&gt;&lt;strong&gt;Created by: ${sys_created_by}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;table style="background-color: #e2efda; border-color: #000000; height: 367px;" border="1" width="722"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p style="text-align: center;"&gt;&amp;nbsp;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;System&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="text-align: center; background-color: #e2efda;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Status&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;span style="text-align: center; background-color: #e2efda;"&gt;&amp;nbsp;&lt;span style="font-size: 16px;"&gt;&lt;strong&gt;Comment&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;&lt;span style="background-color: #e2efda;"&gt;IPMONITOR:&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span style="background-color: #e2efda;"&gt;${ipmon}&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${ipmon_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;BRANCH ROUTERS DOWN:&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${routers}&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${routers_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;BRANCH SERVER NIGHT FLAGS:&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${flags}&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${flags_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;BRANCH SERVER DB EXTENTS:&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${extents}&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${extents_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;BRANCH SERVER DISK:&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${disk}&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${disk_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;DOCORIGIN EDI:&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${edi}&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${edi_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;NATIONAL ERP:&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${nat_unibis}&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${nat_unibis_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;RUSHMORE ERP:&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${rm_unibis}&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${rm_unibis_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;DOTMAR AU ERP:&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${dot_unibis}&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${dot_unibis_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;DOTMAR NZ ERP:&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${dnz_unibis}&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;${dnz_unibis_info}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Sec Ops Check list&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups name="it.dept"&gt;95cc2c234ff47a407b679a701310c7da&lt;/recipient_groups&gt;&lt;recipient_users&gt;3585b05e4f91b2807b679a701310c7eb&lt;/recipient_users&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Sec Ops Checklist ${date}&lt;/subject&gt;&lt;subscribable&gt;true&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sandeep.shrestha&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-22 00:34:47&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;961ddc5adbb89550c5d69517f39619a8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sec Ops Check list&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Sysadmin" source="x_mema_morning_che"&gt;273c11f14fb13e807b679a701310c79f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Sysadmin"&gt;273c11f14fb13e807b679a701310c79f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_961ddc5adbb89550c5d69517f39619a8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sandeep.shrestha&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-22 00:35:58&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=961ddc5adbb89550c5d69517f39619a8"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1103154544</payload_hash>
+        <record_name>Sec Ops Check list</record_name>
+        <reverted_from/>
+        <source>8d2cb7fcdb7cd1502283322af49619e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2022-07-22 00:35:58</sys_created_on>
+        <sys_id>3b5dd09adbb89550c5d69517f3961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182235522ca0000001</sys_recorded_at>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2022-07-22 00:35:58</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>7f5dd09a54b895506b78dcffa74d1980</update_guid>
+        <update_guid_history>7f5dd09a54b895506b78dcffa74d1980:1103154544,1e1ddc5abdb89550a44d10a14da597ad:476745904</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sandeep.shrestha</sys_created_by>
+        <sys_created_on>2022-07-22 00:39:25</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>00143f7ca0ea46f880011d41be467be4</sys_id>
+        <sys_metadata>961ddc5adbb89550c5d69517f39619a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sec Ops Check list</sys_name>
+        <sys_package display_value="Sysadmin" source="x_mema_morning_che">273c11f14fb13e807b679a701310c79f</sys_package>
+        <sys_parent display_value="">28e66b0cdb8f2c102283322af49619f9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sysadmin">273c11f14fb13e807b679a701310c79f</sys_scope>
+        <sys_scope_delete display_value="">7003cbb87ba047a096bc27a7c639d3a1</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_961ddc5adbb89550c5d69517f39619a8</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_961ddc5adbb89550c5d69517f39619a8">3b5dd09adbb89550c5d69517f3961981</sys_update_version>
+        <sys_updated_by>sandeep.shrestha</sys_updated_by>
+        <sys_updated_on>2022-07-22 00:39:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
